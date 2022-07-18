@@ -10,7 +10,7 @@ ul{
  margin-top: 0;
  margin-bottom: 0;
  padding-left: 0;
-}
+ }
 
 img{
  display: block;
@@ -33,9 +33,15 @@ body{
 .page-header-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 24px;
     padding-bottom: 25px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 1px solid #ECECEC;
 
 }
 
@@ -124,28 +130,33 @@ body{
 /* основна з секціями */
 
 .container {
-    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 .main{
-    height: 600px;
+    padding: 200px 0;
+    text-align: center;
     background: #2F303A;
 }
 
 .section{
+    
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .title{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
+    width: 696px;
+    margin: 0 auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -159,9 +170,10 @@ body{
 .button{
    padding-top: 10px;
    padding-bottom: 10px;
+   border: none;
    padding-left: 32px;
    padding-right: 32px;
-
+   margin-top: 30px;
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
@@ -181,15 +193,18 @@ body{
 }
 
 .subtitle{
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .text{
+    text-align: start;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -198,6 +213,7 @@ body{
 }
 
 .dsr{
+    text-align: center;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -206,7 +222,13 @@ body{
     color: #212121;
 }
 
+.staff-border-box{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .staff-name{
+    margin-top: 30px;
+    text-align: center;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -215,11 +237,14 @@ body{
 }
 
 .staff-position{
+    margin-top: 10px;
+    text-align: center;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #757575;
+
 }
 
 /* Підвал */
@@ -247,7 +272,14 @@ body{
 }
 
 .footer{
+    height: 252px;
     background: #2F303A;
+}
+
+.footer-logo{
+    padding-left: 215px;
+    padding-top: 61px;
+       
 }
 
 .content{
@@ -258,8 +290,23 @@ body{
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+.footer-content{
+    padding-left: 215px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.items-footer,
+.items-footer-part{
+    text-decoration: none;
+    list-style: none;
+}
 /* Портфоліо */
 .buttons{
+    
+    margin-bottom: 34px;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -268,6 +315,23 @@ body{
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
+
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.items-buttons{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+    list-style: none;
 
 }
     
@@ -280,20 +344,32 @@ body{
 }
 
 .text-dcr{
+    margin-left: 24px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    
 
 }
 
 .text-dcr-name{
+    margin-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
     letter-spacing: 0.03em;
-    
+      
+}
+
+.work-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-text-border{
+    border: 1px solid #EEEEEE;
 }

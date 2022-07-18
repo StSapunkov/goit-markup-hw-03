@@ -20,11 +20,11 @@
 </head>
 <body>
         <header class="page-header"> 
-          <div class="container page-header-container">
+          <div class="page-header-container">
           
             <nav class="page-nav">
               <a href="./index.html" class="logo" lang="en">
-                <span class="logo-lab">Web</span> Studio</a>
+                <span class="logo-lab">Web</span>Studio</a>
               <ul class="items">
                <li class="menu-items">  
                 <a href="./index.html" class="link">Студия</a>
@@ -59,6 +59,7 @@
 
         <!--переваги-->
         <section class="section">
+          <div class="container">
             <ul class="items">
                 <li class="list-item">
                  <h2 class="subtitle">Внимание к деталям</h2>
@@ -81,47 +82,50 @@
                  <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul> 
+          </div>
             
         </section>
                 <!--чим займаэмося-->
         <section class="section">  
           <h2 class="dsr">Чем мы занимаемся</h2> 
-          <ul class="items">
-            <li>
-              <img src="./images/box1.jpg" alt="робочий процес" width="370" height="295">
+          <div class="container">
+           <ul class="items">
+             <li>
+              <img src="./images/box1.jpg" alt="робочий процес" max-width=100%, height=auto>
+             </li>
+             <li>
+              <img src="./images/box2.jpg" alt="робочий процес" max-width=100%, height=auto>
+             </li>
+             <li>
+              <img src="./images/box3.jpg" alt="робочий процес" max-width=100%, height=auto>
             </li>
-            <li>
-              <img src="./images/box2.jpg" alt="робочий процес" width="370" height="295">
-            </li>
-            <li>
-              <img src="./images/box3.jpg" alt="робочий процес" width="370" height="295">
-            </li>
-          </ul>
+           </ul>
+          </div>
         </section>
           <!--персонал-->
         <section class="section staff-container">   
           <div class="container">
             <h2 class="dsr">Наша команда</h2>
              <ul class="items">
-                <li>
+                <li class="staff-border-box">
                  <img src="./images/igordemyanenko.jpg" alt="Игорь Демьяненко" width="270" height="260">
                  <h3 class="staff-name">Игорь Демьяненко</h3>
                  <p lang="en" class="staff-position">Product Designer</p>
                 </li> 
 
-               <li>
+               <li class="staff-border-box">
                  <img src="./images/olgarepina.jpg" alt="Ольга Репина" width="270" height="260">
                  <h3 class="staff-name">Ольга Репина</h3>
                  <p lang="en" class="staff-position">Frontend Developer</p>
                </li>
 
-               <li>
+               <li class="staff-border-box">
                  <img src="./images/nikolaitarasov.jpg" alt="Николай Тарасов" width="270" height="260">
                  <h3 class="staff-name">Николай Тарасов</h3>
                  <p lang="en" class="staff-position">Marketing</p>
                 </li> 
 
-                <li>
+                <li class="staff-border-box">
                  <img src="./images/mikhailermakov.jpg" alt="Михаил Ермаков" width="270" height="260">
                  <h3 class="staff-name">Михаил Ермаков</h3>
                  <p lang="en" class="staff-position">UI Designer</p>
@@ -133,18 +137,26 @@
     </main>
       <!--контактна ынфа-->
     <footer class="footer">
+      <div class="footer-logo">
+        <a href="./index.html" lang="en" class="logo">
+          <span class="logo-lab">Web</span>
+          <span class="logo-lab-footer">Studio</span>
+        </a>
 
-      <a href="./index.html" lang="en" class="logo"> <span class="logo-lab">Web</span> 
-        <span class="logo-lab-footer">Studio</span>
-      </a>
-              
-        <address class="content"> 
-         г. Киев, пр-т Леси Украинки, 26 
-         
-           <a href="mailto:info@devstudio.com" lang="en" class="link-item-footer">info@devstudio.com</a>
+      </div>
                    
-           <a href="tel:+380961111111" class="link-item-footer">+38 096 111 11 11</a>
+        <address class="content"> 
+         <div class="footer-content">
+           <ul class="items-footer">
+             <li>г. Киев, пр-т Леси Украинки, 26</li>
          
+             <li><a href="mailto:info@devstudio.com" lang="en" class="link-item-footer">info@devstudio.com</a></li>
+                   
+             <li><a href="tel:+380961111111" class="link-item-footer">+38 096 111 11 11</a></li>
+               
+            </ul>
+          
+          </div>
         </address>
      
     </footer>
