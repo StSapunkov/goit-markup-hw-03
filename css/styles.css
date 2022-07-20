@@ -30,6 +30,10 @@ body{
  background-color: #F5F4FA;
 }
 /* <Закголовок хедера */
+.page-header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 .page-header-container{
     display: flex;
 
@@ -40,7 +44,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    border-bottom: 1px solid #ECECEC;
+    
 
 }
 
@@ -120,12 +124,13 @@ body{
     justify-content: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    gap: 30px;
+    
     margin-left: auto;
 
     list-style: none;
 }
 .list-item{
+    width: 270px;
     margin-left: 30px;
 }
 
@@ -145,6 +150,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    
 
 }
 .container-work{
@@ -182,6 +188,7 @@ body{
 
 .section-work{
     padding-top:0;
+    padding-bottom: 94px;
 }
 
 .title{
@@ -324,7 +331,12 @@ body{
 }
 
 .footer-logo{
-        padding-top: 61px;
+    padding-top: 61px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 
@@ -338,14 +350,19 @@ body{
 }
 
 .footer-content{
-    padding-left: 215px;
-    margin-top: 20px;
+    padding-bottom: 25px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
     
 }
 
 .items-footer,
 .items-footer-part{
+    margin-top: 9px;
     text-decoration: none;
     list-style: none;
 }
@@ -393,9 +410,19 @@ body{
     color: #FFFFFF;
 
 }
+.items-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 30px;
+    margin-left: auto;
+    
+    list-style: none;
+}
 
 .text-dcr{
-    margin-left: 24px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -406,7 +433,7 @@ body{
 }
 
 .text-dcr-name{
-    margin-left: 24px;
+    margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -419,8 +446,17 @@ body{
 .work-container{
     display: flex;
     flex-wrap: wrap;
+    display: flex;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 94px;
 }
 
 .items-text-border{
+    padding: 20px 24px 20px 24px;
     border: 1px solid #EEEEEE;
 }
