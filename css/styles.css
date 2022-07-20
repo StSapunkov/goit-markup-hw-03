@@ -37,26 +37,23 @@ body{
 .page-header-container{
     display: flex;
 
-    padding-top: 24px;
-    padding-bottom: 25px;
+    height: 80px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     
-
 }
 
 .page-nav{
     display: flex;
-    
+        
 }
 
 .logo{
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -122,13 +119,12 @@ body{
 .items{
     display: flex;
     justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
+        
     margin-left: auto;
 
     list-style: none;
 }
+
 .list-item{
     width: 270px;
     margin-left: 30px;
@@ -160,7 +156,12 @@ body{
 .container-staff{
     display: flex;
     flex-direction: column;
-    
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 94px;
 }
 
@@ -281,7 +282,6 @@ body{
     padding-bottom: 30px;
 }
 .staff-name{
-    margin-top: 30px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -331,12 +331,14 @@ body{
 }
 
 .footer-logo{
-    padding-top: 61px;
+    
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    text-decoration: none;
+    padding-top: 60px;
     
 }
 
@@ -347,18 +349,7 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-}
-
-.footer-content{
-    padding-bottom: 25px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    
-}
+}  
 
 .items-footer,
 .items-footer-part{
@@ -372,7 +363,9 @@ body{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
+    border: none;
     line-height: 1.63;
+    padding: 6px 22px;
     letter-spacing: 0.03em;
     color: #212121;
     background: #F5F4FA;
@@ -382,24 +375,22 @@ body{
 .buttons-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .items-buttons{
     display: flex;
     align-items: center;
     gap: 8px;
-    
+    margin-bottom: 34px;
     list-style: none;
-
-    margin-top: 6px;
-    margin-bottom: 6px;
-    margin-left: 22px;
-    margin-right: 22px;
-
+  
 }
     
 .buttons:hover,
@@ -413,11 +404,10 @@ body{
 .items-portfolio{
     display: flex;
     flex-wrap: wrap;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     gap: 30px;
     margin-left: auto;
-    
+    padding-bottom: 94px;
     list-style: none;
 }
 
