@@ -37,12 +37,11 @@ body{
 .page-header-container{
     display: flex;
 
-    height: 80px;
+    
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
     
 }
 
@@ -53,6 +52,8 @@ body{
 
 .logo{
     margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 
     font-family: 'Raleway';
     font-weight: 700;
@@ -75,12 +76,16 @@ body{
 }
 
 .link{
+    display: block;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
+    padding: 32px 0;
+    
 }
 
 .link-item{
@@ -118,7 +123,7 @@ body{
 
 .items{
     display: flex;
-    justify-content: center;
+    align-items: center;
         
     margin-left: auto;
 
@@ -336,6 +341,7 @@ body{
 .footer{
     height: 252px;
     background: #2F303A;
+    padding: 60px 0;
 }
 
 .footer-logo{
@@ -345,8 +351,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    text-decoration: none;
-    padding-top: 60px;
+    
     
 }
 
