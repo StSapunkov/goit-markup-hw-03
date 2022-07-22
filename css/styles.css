@@ -37,12 +37,10 @@ body{
 .page-header-container{
     display: flex;
     
-
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    
-    
+        
 }
 
 .page-nav{
@@ -126,13 +124,16 @@ body{
     align-items: center;
         
     margin-left: auto;
-
     list-style: none;
 }
 
 .list-item{
     width: 270px;
     margin-left: 30px;
+}
+
+.list-item:first-child{
+    margin-left: 0;
 }
 
 .menu-items:not(:last-child){
@@ -160,7 +161,7 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
+    
 }
 
 .container-staff{
@@ -172,14 +173,13 @@ body{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 94px;
+    
 }
 
 .items-staff{
     display: flex;
     justify-content: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+ 
     gap: 30px;
     
     list-style: none;
@@ -194,13 +194,10 @@ body{
 
 .section{
     padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 
-.section-work{
-    padding-top:0;
-    padding-bottom: 94px;
-}
 
 .title{
     width: 696px;
@@ -315,6 +312,18 @@ body{
 }
 
 /* Підвал */
+
+.logo-footer{
+        
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
 .logo-lab-footer {
     font-family: 'Raleway';
     font-style: normal;
@@ -335,6 +344,7 @@ body{
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    margin-top: 9px;
 
 }
 
@@ -362,11 +372,18 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-top: 20px;
 }  
 
-.items-footer,
-.items-footer-part{
-    margin-top: 9px;
+.items-footer{
+    
+    text-decoration: none;
+    list-style: none;
+
+} 
+
+.link-footer{
+    margin-bottom: 9px;
     text-decoration: none;
     list-style: none;
 }
